@@ -26,30 +26,26 @@ A modern web application that uses AI to remove backgrounds from images with jus
 ### Installation
 
 1. Clone the repository
-2. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
 
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
    # or
    yarn install
    ```
 
-4. Install axios:
+3. Install axios:
    ```
    npm i axios -- save
    ```
 
-5. Create a `.env` file in the frontend directory with the following variables:
+4. Create a `.env` file in the frontend directory with the following variables:
    ```
    VITE_MY_API_KEY = "your_api_key_here"
    VITE_BASE_URL = "https://techhk.aoscdn.com/"
    ```
 
-6. Start the development server:
+5. Start the development server:
    ```bash
    npm run dev
    # or
@@ -59,17 +55,16 @@ A modern web application that uses AI to remove backgrounds from images with jus
 ## Project Structure
 
 ```
-frontend/
-├── src/
-│   ├── component/
-│   │   ├── Home.jsx           # Main application component
-│   │   ├── ImageUpload.jsx    # Image upload interface component
-│   │   ├── ImagePreview.jsx   # Image preview and comparison component
-│   │   └── Loading.jsx        # Loading state component
-│   ├── utils/                 # Utility functions and helpers
-│   ├── App.jsx                # Root application component
-│   ├── main.jsx               # Application entry point
-│   └── index.css              # Global styles
+|   src/
+│  ├── component/
+│  │   ├── Home.jsx           # Main application component
+│  │   ├── ImageUpload.jsx    # Image upload interface component
+│  │   ├── ImagePreview.jsx   # Image preview and comparison component
+│  │   └── Loading.jsx        # Loading state component
+│  ├── utils/                 # Utility functions and helpers
+│  ├── App.jsx                # Root application component
+│  ├── main.jsx               # Application entry point
+│  └── index.css              # Global styles
 ├── .env                       # Environment variables
 └── package.json               # Project dependencies and scripts
 ```
