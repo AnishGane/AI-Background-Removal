@@ -96,7 +96,7 @@ The application uses an external AI service for image enhancement. The API commu
 
 ## Links
 
-- [Demo Site](https://ai-image-enhancer-1oli.onrender.com/)
+- [Demo Site](https://ai-background-removal.onrender.com/)
 - [API Documentation](https://picwish.com/background-removal-api-doc)
 
 ## Author
