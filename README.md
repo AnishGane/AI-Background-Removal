@@ -78,7 +78,7 @@ A modern web application that uses AI to remove backgrounds from images with jus
 
 ## API Integration
 
-The application uses an external AI service for image enhancement. The API communication is handled in `enhancedImageAPI.js`, which:
+The application uses an external AI service for image enhancement. The API communication is handled in `FinalImageAPI.js`, which:
 - Uploads the image to the API
 - Retrieves a task ID
 - Polls the API until the final image is ready
