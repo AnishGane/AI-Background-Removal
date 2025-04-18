@@ -39,7 +39,7 @@ A modern web application that uses AI to remove backgrounds from images with jus
    npm i axios -- save
    ```
 
-4. Create a `.env` file in the frontend directory with the following variables:
+4. Create a `.env` file in the directory with the following variables:
    ```
    VITE_MY_API_KEY = "your_api_key_here"
    VITE_BASE_URL = "https://techhk.aoscdn.com/"
